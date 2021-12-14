@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gallery</title>
+		<style>
+		body
+		{
+			background-image: url(images/purple.jpg); 
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+			background-color: dimgrey;
+			background-blend-mode: multiply;
+
+		}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+ul{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+
+	display: inline-block;
+}
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	position: relative;
+    left: 120px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+	position: relative;
+    right: 1200px;
+}
+.heading{
+    text-align: center;
+    margin:2px;
+    font-size: 40px;
+    padding:7rem;
+    border-bottom: .2rem solid #fff4;
+    color:#fff;
+    font-family: Times New Roman;
+}
+
+.heading span{
+    color:skyblue;
+    font-family: Times New Roman;
+}
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+.portfolio .box-container .box{
+    height: 20rem;
+    width:26rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="main">
+		<div class="logo">
+			<ul><a href="index.html"> <img src="images/preview.png"></a></ul>
+
+		</div>
+			<ul>
+				<li><a href="index.html">HOME</a> </li>
+				<li><a href="biodata.html">BIODATA</a> </li>
+				<li><a href="experience.html">EXPERIENCE</a> </li>
+				<li><a href="education.html">EDUCATION</a> </li>
+				<li><a href="family.html">FAMILY</a> </li>
+				<li class="active"><a href="gallery.html">GALLERY</a> </li>
+				<li><a href="contact.html">CONTACT ME</a> </li>
+			</ul>
+		</div>
+	<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> MY <span>GALLERY</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/spm.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/im.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/th.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/ppv.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/naz.jpeg" alt="">
+    </div>
+
+</div>
+
+</section>
+
+
+
+	</header>
+
+</body>
+</html>

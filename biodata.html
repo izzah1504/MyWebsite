@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Biodata</title>
+	<style>
+		body
+		{
+			background-image: url(images/purple.jpg); 
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+			background-color: dimgrey;
+			background-blend-mode: multiply;
+
+		}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+ul{
+
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+    max-width: 1024px; 
+    min-width: 480px;
+}
+
+ul li{
+
+	display: inline-block;
+    
+
+}
+
+ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+    position: relative;
+    left: 450px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 5px;
+    position: relative;
+    right: 55rem;
+
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 70px;
+}
+
+.heading{
+    text-align: center;
+    margin:2px;
+    font-size: 40px;
+    padding:1rem;
+    border-bottom: .2rem solid #fff4;
+    color:#fff;
+    font-family: Times New Roman;
+}
+
+.heading span{
+    color:skyblue;
+    font-family: Times New Roman;
+}
+
+header .user img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border:.10px solid white;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    left: 540px;
+}
+
+header .user .name{
+    font-size: 20px;
+    color:#fff;
+    position: relative;
+    left: 530px;
+}
+
+header .user .post{
+    font-size: 14px;
+    color:#eee;
+    position: relative;
+    left: 550px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color:var;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.about .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width:20rem;
+    background:white;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.about .row .counter .box span{
+    font-size: 3rem;
+    color:black;
+    font-family: Times New Roman;
+}
+
+.about .row .counter .box h3{
+    font-size: 1rem;
+    color:mediumpurple;
+}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main">
+		<div class="logo">
+			<ul><a href="index.html"> <img src="images/preview.png"></a></ul>
+		</div>
+			<ul>
+				<li><a href="index.html">HOME</a> </li>
+				<li class="active"><a href="biodata.html">BIODATA</a> </li>
+				<li><a href="experience.html">EXPERIENCE</a> </li>
+				<li><a href="education.html">EDUCATION</a> </li>
+				<li><a href="family.html">FAMILY</a> </li>
+				<li><a href="gallery.html">GALLERY</a> </li>
+				<li><a href="contact.html">CONTACT ME</a> </li>
+			</ul>
+		</div>
+		 <div class="user">
+        <img src="images/izz.jpg" alt="">
+        <h3 class="name">Nurul Izzah Insyirah Binti Johari</h3>
+        <p class="post">Diploma in Information Management</p>
+    </div>
+<section class="about" id="about">
+
+<h1 class="heading"> <span>ABOUT</span> ME </h1>
+
+	<div class="row">  
+    <div class="counter">
+
+        <div class="box">
+            <span>20</span>
+            <h3>YEARS OLD</h3>
+        </div>
+
+        <div class="box">
+            <span>PAHANG</span>
+            <h3>ADDRESS</h3>
+        </div>
+
+        <div class="box">
+            <span>15 APRIL 2001</span>
+            <h3>DATE OF BIRTH</h3>
+        </div>
+
+        <div class="box">
+            <span>FEMALE</span>
+            <h3>GENDER</h3>
+        </div>
+        <div class="box">
+            <span>MALAYSIAN</span>
+            <h3>NATIONALITY</h3>
+        </div>
+
+    </div>
+    </div> 
+
+	</header>
+</head>
+<body>
+
+</body>
+</html>
